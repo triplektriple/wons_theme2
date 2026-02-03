@@ -1,0 +1,11 @@
+Version 1.0.3
+- Fix: Fixed trailing slash issue for image API.
+
+Version 1.0.2
+- New: Added filter for tab title.
+
+Version 1.0.1
+- New: Updated Image search API namespace.
+
+Version 1.0.0
+- Initial release

@@ -1,0 +1,346 @@
+/* Modern Admin Page Styling for GovTech Backup */
+.govtech-backup-admin {
+    margin: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #3c434a;
+}
+
+/* Reset WordPress default styles that might interfere */
+.govtech-backup-admin .wrap {
+    margin: 0;
+    padding: 0;
+}
+
+.govtech-backup-admin h1, 
+.govtech-backup-admin h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.govtech-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.govtech-header-govtech {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #23282d !important;
+    line-height: 1.3 !important;
+}
+
+.govtech-logo {
+    height: 60px;
+    width: auto;
+    max-width: 200px;
+}
+
+.govtech-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.govtech-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+.govtech-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.govtech-card-header {
+    background: #f0f5fa;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e8eef3;
+}
+
+.govtech-card-header h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #2271b1 !important;
+    line-height: 1.4 !important;
+}
+
+.govtech-card-body {
+    padding: 20px;
+}
+
+.govtech-card-footer {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* Full width card for backup list */
+.govtech-card-full {
+    grid-column: 1 / -1;
+}
+
+/* Buttons styling */
+.govtech-backup-admin .button {
+    padding: 6px 14px !important;
+    height: auto !important;
+    background: #2271b1 !important;
+    color: #fff !important;
+    border-color: #2271b1 !important;
+    border-radius: 4px !important;
+    transition: all 0.2s ease !important;
+    text-shadow: none !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+    line-height: normal !important;
+}
+
+.govtech-backup-admin .button:hover,
+.govtech-backup-admin .button:focus {
+    background: #135e96 !important;
+    border-color: #135e96 !important;
+    color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.govtech-backup-admin .button.button-secondary {
+    background: #f0f0f1 !important;
+    border-color: #c5c5c7 !important;
+    color: #3c434a !important;
+}
+
+.govtech-backup-admin .button.button-secondary:hover {
+    background: #e5e5e5 !important;
+    border-color: #999 !important;
+}
+
+.govtech-backup-admin .button.button-danger {
+    background: #d63638 !important;
+    border-color: #d63638 !important;
+}
+
+.govtech-backup-admin .button.button-danger:hover {
+    background: #b32d2e !important;
+    border-color: #b32d2e !important;
+}
+
+/* Status indicator */
+#backup-status-indicator {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: #f0f5fa;
+    border-radius: 4px;
+}
+
+#backup-status-indicator .status-text {
+    font-weight: 500;
+}
+
+#backup-status-indicator .spinner {
+    margin-right: 10px;
+}
+
+/* Backup list table */
+.govtech-backup-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.govtech-backup-list th {
+    text-align: left;
+    padding: 12px 15px;
+    background: #f0f5fa;
+    font-weight: 600;
+    border-bottom: 1px solid #e8eef3;
+}
+
+.govtech-backup-list td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.govtech-backup-list tr:last-child td {
+    border-bottom: none;
+}
+
+.govtech-backup-list tr:hover {
+    background: #f9f9f9;
+}
+
+/* Admin notices */
+#govtech-admin-notices {
+    margin-bottom: 20px;
+}
+
+#govtech-admin-notices .notice {
+    border-radius: 4px;
+    margin: 0 0 15px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer with trademark */
+.govtech-footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #646970;
+    font-size: 13px;
+}
+
+.govtech-trademark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.govtech-trademark-logo {
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* API example box */
+.govtech-api-example {
+    background: #f9f9f9;
+    border-left: 4px solid #2271b1;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 13px;
+    border-radius: 0 4px 4px 0;
+    overflow-x: auto;
+    color: #3c434a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+    .govtech-card-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .govtech-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .govtech-logo {
+        margin-top: 15px;
+    }
+}
+
+/* Additional styles for the internal tables and elements */
+
+/* Form table styling */
+.govtech-backup-admin .form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.govtech-backup-admin .form-table th {
+    text-align: left;
+    width: 30%;
+    padding: 12px 10px 12px 0;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.govtech-backup-admin .form-table td {
+    padding: 12px 0;
+    vertical-align: top;
+}
+
+/* Status indicators */
+.govtech-backup-admin .status-valid {
+    color: #46b450 !important;
+    font-weight: 600;
+}
+
+.govtech-backup-admin .status-invalid {
+    color: #d63638 !important;
+    font-weight: 600;
+}
+
+/* Backup list styling */
+.govtech-backup-admin .govtech-backup-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+}
+
+.govtech-backup-admin .govtech-backup-list th {
+    text-align: left;
+    padding: 12px 15px;
+    font-weight: 600;
+    background: #f0f5fa;
+    border-bottom: 1px solid #e8eef3;
+}
+
+.govtech-backup-admin .govtech-backup-list td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.govtech-backup-admin .govtech-backup-list tr:last-child td {
+    border-bottom: none;
+}
+
+.govtech-backup-admin .govtech-backup-list tr:hover {
+    background: #f9f9f9;
+}
+
+/* Delete button specifically */
+.govtech-backup-admin .delete-backup-btn {
+    margin-left: 8px;
+    color: #d63638 !important;
+    border-color: transparent !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.govtech-backup-admin .delete-backup-btn:hover {
+    color: #b32d2e !important;
+    background: #f6f7f7 !important;
+}
+
+/* Spinner adjustments */
+.govtech-backup-admin .delete-spinner {
+    visibility: hidden;
+}
+
+.govtech-backup-admin .delete-spinner.is-active {
+    visibility: visible;
+}
+
+/* Description text */
+.govtech-backup-admin .description {
+    font-size: 13px;
+    font-style: italic;
+    color: #646970;
+    margin: 5px 0 0;
+}
+
+/* Empty state message */
+.govtech-backup-admin .no-backups-message {
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #646970;
+}

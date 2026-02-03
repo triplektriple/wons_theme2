@@ -1,0 +1,20 @@
+FROM mariadb:10.6
+
+RUN apt-get update && apt-get install -y unzip
+
+# Copy local SQL folder which contains init.zip
+COPY ./sql /docker-entrypoint-initdb.d
+
+# Unzip init.zip at build time if it exists
+RUN set -eux; \
+    apt-get update && apt-get install -y unzip; \
+    cd /docker-entrypoint-initdb.d; \
+    unzip init.zip; \
+    chown -R mysql:mysql /docker-entrypoint-initdb.d/*; \
+    chmod -R 644 /docker-entrypoint-initdb.d/*; \
+    cd ..; \
+    exec docker-entrypoint.sh "$@"
+
+# Use MariaDB's default entrypoint. 
+# The CMD is adjusted to specify UTF-8 settings.
+CMD ["mysqld", "--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]

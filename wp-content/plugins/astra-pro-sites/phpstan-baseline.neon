@@ -1,0 +1,725 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function astra_pro_sites_php_version_notice\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: astra-pro-sites.php
+
+		-
+			message: "#^Call to static method get_instance\\(\\) on an unknown class BSF_Analytics_Loader\\.$#"
+			count: 1
+			path: astra-sites.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$slug\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$type\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Action callback returns array but should not return anything\\.$#"
+			count: 2
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Call to an undefined method object\\:\\:set_license_page_builder\\(\\)\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:license_form_and_links\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:plugin_information\\(\\) has parameter \\$brainstrom_products with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:plugin_information\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:remove_astra_pro_bundled_products\\(\\) has parameter \\$product_parent with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:remove_astra_pro_bundled_products\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:skip_menu\\(\\) has parameter \\$products with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Method Brainstorm_Update_Astra_Pro_Sites\\:\\:skip_menu\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, string\\|false given\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function is_file expects string, string\\|false given\\.$#"
+			count: 2
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Parameter \\#1 \\$version1 of function version_compare expects string, string\\|false given\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Static property Brainstorm_Update_Astra_Pro_Sites\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: class-brainstorm-update-astra-pro-sites.php
+
+		-
+			message: "#^Static property Astra_Pro_Sites_Update\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-update.php
+
+		-
+			message: "#^Call to static method get_white_label\\(\\) on an unknown class Astra_Ext_White_Label_Markup\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Method Astra_Pro_Sites_White_Label\\:\\:plugins_page\\(\\) has parameter \\$plugins with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Method Astra_Pro_Sites_White_Label\\:\\:plugins_page\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Property Astra_Pro_Sites_White_Label\\:\\:\\$branding type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Static property Astra_Pro_Sites_White_Label\\:\\:\\$branding is unused\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Static property Astra_Pro_Sites_White_Label\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites-white-label.php
+
+		-
+			message: "#^Action callback returns array but should not return anything\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Call to static method add_notice\\(\\) on an unknown class Astra_Notices\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:action_links\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:api_request_params\\(\\) has invalid return type arrray\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:api_request_params\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:api_request_params\\(\\) should return arrray but returns array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:includes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:load_textdomain\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:update_vars\\(\\) has parameter \\$vars with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Method Astra_Pro_Sites\\:\\:update_vars\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: """
+				#^PHPDoc tag @var has invalid value \\(\\$get_locale The locale to use\\.
+				Uses get_user_locale\\(\\)` in WordPress 4\\.7 or greater,
+				otherwise uses `get_locale\\(\\)`\\.\\)\\: Unexpected token "\\$get_locale", expected type at offset 54$#
+			"""
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Parameter \\#1 \\$plugin of function is_plugin_active_for_network expects string, null given\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Static property Astra_Pro_Sites\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: classes/class-astra-pro-sites.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, string\\|false given\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-ast-block-templates.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function is_file expects string, string\\|false given\\.$#"
+			count: 2
+			path: inc/lib/class-astra-sites-ast-block-templates.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, string\\|false given\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-ast-block-templates.php
+
+		-
+			message: "#^Static property Astra_Sites_Ast_Block_Templates\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-ast-block-templates.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function file_get_contents expects string, string\\|false given\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-zip-ai.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function is_file expects string, string\\|false given\\.$#"
+			count: 2
+			path: inc/lib/class-astra-sites-zip-ai.php
+
+		-
+			message: "#^Parameter \\#1 \\$json of function json_decode expects string, string\\|false given\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-zip-ai.php
+
+		-
+			message: "#^Static property Astra_Sites_Zip_AI\\:\\:\\$instance \\(object\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/class-astra-sites-zip-ai.php
+
+		-
+			message: "#^Constant ZIPWP_APP not found\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Filter callback return statement is missing\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:admin_body_class\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:admin_menu\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:get_starter_templates_onboarding_localized_array\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:menu_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Method Intelligent_Starter_Templates_Loader\\:\\:should_report_error\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Parameter \\#3 \\$args of function register_setting expects array\\{type\\?\\: string, description\\?\\: string, sanitize_callback\\?\\: callable\\(\\)\\: mixed, show_in_rest\\?\\: array\\|bool, default\\?\\: mixed\\}, 'esc_attr' given\\.$#"
+			count: 2
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Property Intelligent_Starter_Templates_Loader\\:\\:\\$hosting_providers has no type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Property Intelligent_Starter_Templates_Loader\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Static property Intelligent_Starter_Templates_Loader\\:\\:\\$instance \\(instance\\) does not accept Intelligent_Starter_Templates_Loader\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Static property Intelligent_Starter_Templates_Loader\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/class-onboarding-loader.php
+
+		-
+			message: "#^Call to function is_wp_error\\(\\) with array\\{alt\\: string, author\\: string, authorName\\: string, caption\\: string, compat\\: array, context\\: string, date\\: int, dateFormatted\\: string, \\.\\.\\.\\}\\|null will always evaluate to false\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Call to function method_exists\\(\\) with 'Astra_Global_Palette' and 'get_default_color…' will always evaluate to false\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Call to method get_font_family_for_starter_template\\(\\) on an unknown class UAGB_FSE_Fonts_Compatibility\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Call to static method get_default_color_palette\\(\\) on an unknown class Astra_Global_Palette\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Call to static method prepare_xml_data\\(\\) on an unknown class STImporter\\\\Importer\\\\ST_Importer\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Cannot assign offset 'body\\-font\\-family…' to array\\|string\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Function Swt\\\\get_theme_custom_styles not found\\.$#"
+			count: 2
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Function __ invoked with 3 parameters, 1\\-2 required\\.$#"
+			count: 2
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Function astra_sites_is_valid_url not found\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Function astra_update_option not found\\.$#"
+			count: 16
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Instantiated class UAGB_FSE_Fonts_Compatibility not found\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Method Astra_Sites_Onboarding_Setup\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Method Astra_Sites_Onboarding_Setup\\:\\:get_php_version\\(\\) should return float but returns string\\.$#"
+			count: 2
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Method Astra_Sites_Onboarding_Setup\\:\\:temporary_cache_errors\\(\\) has parameter \\$posted_data with no type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Method Astra_Sites_Onboarding_Setup\\:\\:update_fse_site_logo\\(\\) has parameter \\$post_name with no type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Offset 'url' does not exist on array\\{alt\\: string, author\\: string, authorName\\: string, caption\\: string, compat\\: array, context\\: string, date\\: int, dateFormatted\\: string, \\.\\.\\.\\}\\|null\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Parameter \\#1 \\$attachment_id of function wp_get_attachment_url expects int, string given\\.$#"
+			count: 3
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Parameter \\#1 \\$postarr of function wp_update_post expects array\\{ID\\?\\: int, post_author\\?\\: int, post_date\\?\\: string, post_date_gmt\\?\\: string, post_content\\?\\: string, post_content_filtered\\?\\: string, post_title\\?\\: string, post_excerpt\\?\\: string, \\.\\.\\.\\}, array\\{ID\\: mixed, post_content\\: non\\-empty\\-string\\|false\\} given\\.$#"
+			count: 2
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Property Astra_Sites_Onboarding_Setup\\:\\:\\$fse_logo_attributes type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Property Astra_Sites_Onboarding_Setup\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Property WP_Post\\:\\:\\$post_content \\(string\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Static property Astra_Sites_Onboarding_Setup\\:\\:\\$instance \\(instance\\) does not accept Astra_Sites_Onboarding_Setup\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Static property Astra_Sites_Onboarding_Setup\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Variable \\$log_file in isset\\(\\) always exists and is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Variable \\$typography_passed in empty\\(\\) always exists and is not falsy\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^is_wp_error\\(array\\<string, array\\|int\\|string\\>\\|null\\) will always evaluate to false\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php
+
+		-
+			message: "#^Binary operation \"\\+\" between array\\<string, int\\> and 1 results in an error\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Binary operation \"\\.\" between 'Downloaded Image…' and int\\|WP_Error results in an error\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Binary operation \"\\.\" between non\\-falsy\\-string and array\\<string, int\\> results in an error\\.$#"
+			count: 5
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Call to function is_bool\\(\\) with non\\-empty\\-array will always evaluate to false\\.$#"
+			count: 5
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Call to function is_wp_error\\(\\) with array\\{alt\\: string, author\\: string, authorName\\: string, caption\\: string, compat\\: array, context\\: string, date\\: int, dateFormatted\\: string, \\.\\.\\.\\}\\|null will always evaluate to false\\.$#"
+			count: 4
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Function astra_get_option not found\\.$#"
+			count: 7
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Function astra_update_option not found\\.$#"
+			count: 4
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:get_image\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:get_options\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:parse_spectra_form\\(\\) with return type void returns array but should not return anything\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:replace_images\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:replace_in_customizer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:replace_in_post\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Replace_Images\\:\\:update_social_options\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\{alt\\: string, author\\: string, authorName\\: string, caption\\: string, compat\\: array, context\\: string, date\\: int, dateFormatted\\: string, \\.\\.\\.\\}\\|null\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Offset 'url' does not exist on array\\{alt\\: string, author\\: string, authorName\\: string, caption\\: string, compat\\: array, context\\: string, date\\: int, dateFormatted\\: string, \\.\\.\\.\\}\\|null\\.$#"
+			count: 2
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Offset 0 does not exist on array\\<string, array\\<string, string\\>\\>\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Offset 1 does not exist on array\\<string, array\\<string, string\\>\\>\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Offset int on array\\<string, array\\<string, string\\>\\> in isset\\(\\) does not exist\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Parameter \\#1 \\$index of method Astra_Sites_Replace_Images\\:\\:get_image\\(\\) expects int, array\\<string, int\\> given\\.$#"
+			count: 6
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Property Astra_Sites_Replace_Images\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Result of method Astra_Sites_Replace_Images\\:\\:parse_spectra_form\\(\\) \\(void\\) is used\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Static method Astra_Sites_Importer_Log\\:\\:add\\(\\) invoked with 2 parameters, 1 required\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Static property Astra_Sites_Replace_Images\\:\\:\\$filtered_images \\(array\\<string, array\\<string, string\\>\\>\\) does not accept array\\<int\\|string, mixed\\>\\.$#"
+			count: 3
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Static property Astra_Sites_Replace_Images\\:\\:\\$image_index \\(array\\<string, int\\>\\) does not accept default value of type int\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Static property Astra_Sites_Replace_Images\\:\\:\\$instance \\(instance\\) does not accept Astra_Sites_Replace_Images\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Static property Astra_Sites_Replace_Images\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^is_wp_error\\(array\\<string, array\\|int\\|string\\>\\|null\\) will always evaluate to false\\.$#"
+			count: 4
+			path: inc/lib/onboarding/classes/class-astra-sites-replace-images.php
+
+		-
+			message: "#^Method Astra_Sites_Reporting\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Method Astra_Sites_Reporting\\:\\:report\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Method Astra_Sites_Reporting\\:\\:report\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Property Astra_Sites_Reporting\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Static property Astra_Sites_Reporting\\:\\:\\$instance \\(instance\\) does not accept Astra_Sites_Reporting\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Static property Astra_Sites_Reporting\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-reporting.php
+
+		-
+			message: "#^Binary operation \"\\.\" between 'Failed ' and 0\\|0\\.0\\|''\\|'0'\\|array\\{\\}\\|false\\|null results in an error\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Api\\:\\:get_api_headers\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Api\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Api\\:\\:get_user_credits\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Api\\:\\:get_zip_plan_details\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Api\\:\\:revoke_access\\(\\) has parameter \\$request with generic class WP_REST_Request but does not specify its types\\: T$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Parameter \\#1 \\$str of function sanitize_text_field expects string, string\\|null given\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Property Astra_Sites_ZipWP_Api\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Static property Astra_Sites_ZipWP_Api\\:\\:\\$instance \\(instance\\) does not accept Astra_Sites_ZipWP_Api\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Static property Astra_Sites_ZipWP_Api\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Helper\\:\\:download_image\\(\\) has parameter \\$image with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Helper\\:\\:get_business_details\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Helper\\:\\:get_image_placeholders\\(\\) should return array\\<string, array\\<string, string\\>\\> but returns array\\<int, array\\<string, string\\>\\>\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^PHPDoc tag @return contains unresolvable type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^Parameter \\#2 \\$needle of function strpos expects string, string\\|false\\|null given\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-helper.php
+
+		-
+			message: "#^Binary operation \"\\.\" between 'Failed ' and 0\\|0\\.0\\|''\\|'0'\\|array\\{\\}\\|false\\|null results in an error\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Cannot assign offset 'auth_token' to string\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Function __ invoked with 3 parameters, 1\\-2 required\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Integration\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Method Astra_Sites_ZipWP_Integration\\:\\:get_zip_plans\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Property Astra_Sites_ZipWP_Integration\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Static property Astra_Sites_ZipWP_Integration\\:\\:\\$instance \\(instance\\) does not accept Astra_Sites_ZipWP_Integration\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php
+
+		-
+			message: "#^Static property Astra_Sites_ZipWP_Integration\\:\\:\\$instance \\(instance\\) in isset\\(\\) is not nullable\\.$#"
+			count: 1
+			path: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php

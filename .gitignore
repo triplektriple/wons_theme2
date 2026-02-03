@@ -1,0 +1,25 @@
+# First ignore everything
+*
+
+# Then allow specific files and directories
+!.gitignore
+!.gitattributes
+!.github/
+!.github/workflows/
+!.github/workflows/ci.yml
+!docker-compose.yaml
+!Dockerfile
+!Dockerfile.db
+!README.md
+!sql/
+#!sql/init.sql
+!sql/init.zip
+!wp-content/
+!wp-content/**
+
+# Then exclude specific WordPress files/directories
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/cache/
+wp-content/backup*/
+wp-content/debug.log
