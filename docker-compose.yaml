@@ -13,7 +13,7 @@ services:
     volumes:
       - 'wordpress_data_training_theme2:/var/www/html/wp-content'
   db:
-    image: 'ghcr.io/wons-bhutan/govtech_training_theme2_mariadb:latest'
+    image: 'ghcr.io/triplektriple/govtech_training_theme2_mariadb:latest'
     volumes:
       - 'mariadb_data_training_theme2:/var/lib/mysql'
     environment:
