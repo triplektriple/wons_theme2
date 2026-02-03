@@ -7,7 +7,7 @@ services:
       - WORDPRESS_DB_NAME=training_theme2
       - WORDPRESS_DB_PASSWORD=ow8eyF@938y0
       - WORDPRESS_DB_USER=training_theme2
-      - "WORDPRESS_CONFIG_EXTRA=define('WP_HOME','https://theme2.wonstechnology.com.');define('WP_SITEURL','https://theme2.wonstechnology.com');define('USE_MYSQL','1');"
+      - "WORDPRESS_CONFIG_EXTRA=define('WP_HOME','https://theme2.wonstechnology.com');define('WP_SITEURL','https://theme2.wonstechnology.com');define('USE_MYSQL','1');"
     depends_on:
       - db
     volumes:
