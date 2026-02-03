@@ -1,27 +1,27 @@
 version: '3'
 services:
   wordpress:
-    image: 'ghcr.io/triplektriple/govtech_astratemplates_theme2:latest'
+    image: 'ghcr.io/triplektriple/govtech_training_theme2:latest'
     environment:
       - WORDPRESS_DB_HOST=db
-      - WORDPRESS_DB_NAME=agencytemplate_theme2
+      - WORDPRESS_DB_NAME=training_theme2
       - WORDPRESS_DB_PASSWORD=ow8eyF@938y0
-      - WORDPRESS_DB_USER=agencytemplate_theme2
-      - "WORDPRESS_CONFIG_EXTRA=define('WP_HOME','https://agencytemplateproduction.wonstechnology.com.');define('WP_SITEURL','https://agencytemplateproduction.wonstechnology.com');define('USE_MYSQL','1');"
+      - WORDPRESS_DB_USER=training_theme2
+      - "WORDPRESS_CONFIG_EXTRA=define('WP_HOME','https://theme2.wonstechnology.com.');define('WP_SITEURL','https://agencytemplateproduction.wonstechnology.com');define('USE_MYSQL','1');"
     depends_on:
       - db
     volumes:
-      - 'wordpress_data_agencytemplate_theme2:/var/www/html/wp-content'
+      - 'wordpress_data_training_theme2:/var/www/html/wp-content'
   db:
-    image: 'ghcr.io/wons-bhutan/govtech_astratemplates_theme2_mariadb:latest'
+    image: 'ghcr.io/wons-bhutan/govtech_training_theme2_mariadb:latest'
     volumes:
-      - 'mariadb_data_agencytemplate:/var/lib/mysql'
+      - 'mariadb_data_training_theme2:/var/lib/mysql'
     environment:
-      - MARIADB_DATABASE=agencytemplate
+      - MARIADB_DATABASE=training_theme2
       - MARIADB_PASSWORD=ow8eyF@938y0
       - MARIADB_ROOT_PASSWORD=rootow8eyF@938y0
-      - MARIADB_USER=agencytemplate_theme2
+      - MARIADB_USER=training_theme2
 
 volumes:
-  mariadb_data_agencytemplate_theme2: null
-  wordpress_data_agencytemplate_theme2: null
+  mariadb_data_training_theme2: null
+  wordpress_data_training_theme2: null
