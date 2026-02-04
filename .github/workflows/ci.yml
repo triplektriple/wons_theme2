@@ -36,7 +36,7 @@ jobs:
           file: ./Dockerfile
           push: true
           # Example tag for WP
-          tags: ghcr.io/triplektriple/govtech_training_theme2_wordpress:latest
+          tags: ghcr.io/triplektriple/govtech_astra_theme2_wordpress:latest
 
       # 2) Build & push MariaDB image
       - name: Build & push DB image
@@ -46,4 +46,4 @@ jobs:
           file: ./Dockerfile.db
           push: true
           # Example tag for DB
-          tags: ghcr.io/triplektriple/govtech_training_theme2_mariadb:latest
+          tags: ghcr.io/triplektriple/govtech_astra_theme2_mariadb:latest

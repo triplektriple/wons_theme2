@@ -1,7 +1,7 @@
 version: '3'
 services:
   wordpress:
-    image: 'ghcr.io/triplektriple/govtech_training_theme2:latest'
+    image: 'ghcr.io/triplektriple/govtech_astra_theme2:latest'
     environment:
       - WORDPRESS_DB_HOST=db
       - WORDPRESS_DB_NAME=training_theme2
@@ -11,17 +11,17 @@ services:
     depends_on:
       - db
     volumes:
-      - 'wordpress_data_training_theme2:/var/www/html/wp-content'
+      - 'wordpress_data_astra_theme2:/var/www/html/wp-content'
   db:
-    image: 'ghcr.io/triplektriple/govtech_training_theme2_mariadb:latest'
+    image: 'ghcr.io/triplektriple/govtech_astra_theme2_mariadb:latest'
     volumes:
-      - 'mariadb_data_training_theme2:/var/lib/mysql'
+      - 'mariadb_data_astra_theme2:/var/lib/mysql'
     environment:
-      - MARIADB_DATABASE=training_theme2
+      - MARIADB_DATABASE=astra_theme2
       - MARIADB_PASSWORD=ow8eyF@938y0
       - MARIADB_ROOT_PASSWORD=rootow8eyF@938y0
-      - MARIADB_USER=training_theme2
+      - MARIADB_USER=astra_theme2
 
 volumes:
-  mariadb_data_training_theme2: null
-  wordpress_data_training_theme2: null
+  mariadb_data_astra_theme2: null
+  wordpress_data_astra_theme2: null
