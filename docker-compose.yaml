@@ -1,7 +1,7 @@
 version: '3'
 services:
   wordpress:
-    image: 'ghcr.io/triplektriple/govtech_astra_theme2:latest'
+    image: 'ghcr.io/triplektriple/govtech_astra_theme2_wordpress:latest'
     environment:
       - WORDPRESS_DB_HOST=db
       - WORDPRESS_DB_NAME=astra_theme2
